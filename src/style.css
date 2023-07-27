@@ -1,0 +1,105 @@
+.nav1{
+    font-size: 12px;
+}
+.icons-style{
+    display: flex;
+}
+.icons{
+    height:35px; 
+    width:30px
+}
+.careers{
+    height: 100px;
+    width: 205px;
+}
+.welcome{
+    font-size: 25px;
+    padding-top: 50px;
+}
+.marquee{
+    font-weight: bold;
+    padding-top: 50px;
+    color: rgb(157, 97, 19)
+}
+.welcome-text{
+    padding-top: 50px; 
+    font-size: 15px;
+    text-align: justify;
+}
+.service{
+    font-size: 40px; 
+    padding-top: 30px;
+}
+.chevron-icon{
+    color:#FFA546; 
+    font-size: 12px;
+}
+.footer1{
+    background-color: rgb(32, 30, 30);
+    bottom: 0%;
+    left: 0%;
+    width: 100%;
+    /* height: 300px; */
+}
+.footer-div2{
+    height: 70px;
+}
+.spanFooter{
+    color: aliceblue;
+    padding-top: 20px;
+}
+.spanFooterDiv{
+    padding: 20px;
+    text-align: center;
+    /* height: 100px; */
+    text-align:start;
+}
+p{
+    color: aliceblue;
+}
+.about-us-text{
+    text-align:start;
+    font-size: 0.9em;
+    padding-top: 10px;
+}
+.footer-contact-us{
+    display: flex; 
+    color: aliceblue;  
+    padding-bottom: 20px;
+}
+.footer-contact-us1{
+    display: flex; 
+    color: aliceblue;  
+}
+.footer-contact-us-icons{
+    padding-right: 10px;
+}
+.cards-style{
+    height:21rem; 
+    width:221px;
+    border: solid black;
+    border-width: 10px;
+}
+.cards-image{
+    height: 120px;
+    width: 220px;
+}
+.list-group-style{
+    padding-bottom: 100px;
+}
+.onlySpaceChar{
+    color: red
+}
+.onlyGreen{
+    color: green
+}
+.onlyOrange{
+    color: orange
+}
+#version{
+    width: 70%;
+}
+#skill{
+    padding-right: 0px; 
+    width: 101%;
+}
