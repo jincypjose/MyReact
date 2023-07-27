@@ -1,2 +1,2 @@
 # MyReact
-Spectrum testing code
+Testing code
