@@ -1,9 +1,9 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css'
-import NavBar from './navBar/NavBar';
-import Form from './form/Form';
-import Footer from './footer/Footer';
+import NavBar from './components/navBar/NavBar';
+import Form from './components/form/Form';
+import Footer from './components/footer/Footer';
 import 'jquery/dist/jquery.min.js';
 // import LoginForm from './loginForm/LoginForm';
 

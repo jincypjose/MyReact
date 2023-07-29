@@ -37,7 +37,7 @@ function LoginForm (){
                                     aria-describedby="basic-addon1"
                                 >
                                 </input>
-                                <Link>Sign Up?</Link>
+                                <Link to='/signUp'>Sign Up?</Link>
                             </div>
                         </div>
                     </div>

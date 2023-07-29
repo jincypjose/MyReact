@@ -2,6 +2,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter,Routes,Link, Route } from 'react-router-dom';
 import Form from '../form/Form';
 import LoginForm from '../loginForm/LoginForm';
+import Drawer from '../drawer/Drawer';
+import SignUp from '../signUp/SignUp';
 
 function NavBar() {
   return(
@@ -19,7 +21,7 @@ function NavBar() {
                     <Link className="nav-link active" aria-current="page" to='/home'>Home</Link>
                   </li>
                   <li className="nav-item">
-                    <Link className="nav-link" href="#">Link</Link>
+                    <Link className="nav-link active" aria-current="page" to='/drawer'>Link</Link>
                   </li>
                   <li className="nav-item dropdown">
                     <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -41,6 +43,9 @@ function NavBar() {
                       Login
                   </button>
                 </Link>
+                <Link to='/drawer'>
+                  <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Enable body scrolling</button>
+                </Link>
               </div>
           </div>
         </nav>
@@ -48,6 +53,8 @@ function NavBar() {
           <Routes>
             <Route path='home' element={<Form/>}></Route>
             <Route path='login' element={<LoginForm/>}></Route>
+            <Route path='drawer' element={<Drawer/>}></Route>
+            <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>
         </div>
       </BrowserRouter>
