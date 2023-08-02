@@ -11,8 +11,8 @@ function LoginForm (){
             height: "100%",}}
         >
             <form method="POST" action="" encType="" name="">
-                <div class="card" style={{width: '18rem'}}>
-                    <div class="card-body">
+                <div className="card" style={{width: '18rem'}}>
+                    <div className="card-body">
                         <div className="row">
                             <div className="col-md-12">
                                 <label>User Name</label>
@@ -38,6 +38,7 @@ function LoginForm (){
                                 >
                                 </input>
                                 <Link to='/signUp'>Sign Up?</Link>
+                                <Link to='/drawer'><button>Login</button></Link>
                             </div>
                         </div>
                     </div>

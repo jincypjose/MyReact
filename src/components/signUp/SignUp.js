@@ -11,8 +11,8 @@ function SignUp (){
             height: "100%",}}
         >
             <form method="POST" action="" encType="" name="">
-                <div class="card" style={{width: '18rem'}}>
-                    <div class="card-body">
+                <div className="card" style={{width: '18rem'}}>
+                    <div className="card-body">
                         <div className="row">
                             <div className="col-md-12">
                                 <label>Sign up Name</label>
