@@ -21,13 +21,15 @@ function Drawer() {
             <span>Users List</span>
             </Link>
             <Link to="/drawer/class" className="list-group-item list-group-item-action py-2 ripple">
-            <span>Orders</span></Link>
-            <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
-            <span>International</span></Link>
-            <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
-            <span>Partners</span></Link>
-            <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
-            <span>Calendar</span></Link>
+            <span>Class Component</span></Link>
+            <Link to="/drawer/classClone" className="list-group-item list-group-item-action py-2 ripple">
+            <span>Class Component Clone</span></Link>
+            <Link to="/drawer/stateInClass" className="list-group-item list-group-item-action py-2 ripple">
+            <span>State In Class</span></Link>
+            <Link to="/drawer/counterClass" className="list-group-item list-group-item-action py-2 ripple">
+            <span>Class Counter</span></Link>
+            <Link to="/drawer/stateInFunction" className="list-group-item list-group-item-action py-2 ripple">
+            <span>State In Function</span></Link>
             <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
             <span>Users</span></Link>
             <Link href="#" className="list-group-item list-group-item-action py-2 ripple">

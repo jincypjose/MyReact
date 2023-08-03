@@ -8,7 +8,10 @@ import SignUp from '../signUp/SignUp';
 import Cards from '../cards/cards';
 import UserList from '../userList/UsersList';
 import UsersList from '../userList/UsersList';
-import ClassComponent from '../ClassComponent';
+import ClassComponent from '../classComponent/ClassComponent';
+import StateInClass from '../stateInClass/stateInClass';
+import CounterClass from '../stateInClass/counterClass';
+import StateInFunction from '../stateInFunction/StateInFunction';
 
 function NavBar() {
   return(
@@ -118,7 +121,11 @@ function NavBar() {
               <Route path='pass' element={<LoginForm/>}></Route>
               <Route path='cards' element={<Cards/>}></Route>
               <Route path='userslist' element={<UsersList/>}></Route>
-              <Route path='class' element={<ClassComponent/>  }></Route>
+              <Route path='class' element={<ClassComponent value1="React" img='/Screenshot from 2023-07-21 10-46-37.png'/>  }></Route>
+              <Route path='classClone' element={<ClassComponent value2="Next.js" value3="different"/>  }></Route>
+              <Route path='stateInClass' element={<StateInClass/>}></Route>
+              <Route path='counterClass' element={<CounterClass/>}></Route>
+              <Route path='stateInFunction' element={<StateInFunction/>}></Route>
             </Route>
             <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>
