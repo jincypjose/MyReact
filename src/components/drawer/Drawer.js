@@ -30,10 +30,12 @@ function Drawer() {
             <span>Class Counter</span></Link>
             <Link to="/drawer/stateInFunction" className="list-group-item list-group-item-action py-2 ripple">
             <span>State In Function</span></Link>
-            <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
-            <span>Users</span></Link>
-            <Link href="#" className="list-group-item list-group-item-action py-2 ripple">
-            <span>Sales</span></Link>
+            <Link to="/drawer/FormState" className="list-group-item list-group-item-action py-2 ripple">
+            <span>Form State</span></Link>
+            <Link to="/drawer/BmiCalculator" className="list-group-item list-group-item-action py-2 ripple">
+            <span>BMI Calculator</span></Link>
+            <Link to="/drawer/classLifecycle" className="list-group-item list-group-item-action py-2 ripple">
+            <span>Class Lifecycle</span></Link>
           </div>
         </div>
         <div className='col-md-9'>

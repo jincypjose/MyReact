@@ -12,6 +12,9 @@ import ClassComponent from '../classComponent/ClassComponent';
 import StateInClass from '../stateInClass/stateInClass';
 import CounterClass from '../stateInClass/counterClass';
 import StateInFunction from '../stateInFunction/StateInFunction';
+import FormState from '../formState/FormState';
+import BmiCalculator from '../BMICalculator/BmiCalculator';
+import ClassLifecycle from '../ClassLifecycle/ClassLifecycle';
 
 function NavBar() {
   return(
@@ -126,6 +129,9 @@ function NavBar() {
               <Route path='stateInClass' element={<StateInClass/>}></Route>
               <Route path='counterClass' element={<CounterClass/>}></Route>
               <Route path='stateInFunction' element={<StateInFunction/>}></Route>
+              <Route path='FormState' element={<FormState/>}></Route>
+              <Route path='BmiCalculator' element={<BmiCalculator/>}></Route>
+              <Route path='classLifecycle'element={<ClassLifecycle/>}></Route>
             </Route>
             <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>
