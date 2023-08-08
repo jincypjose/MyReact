@@ -15,6 +15,8 @@ import StateInFunction from '../stateInFunction/StateInFunction';
 import FormState from '../formState/FormState';
 import BmiCalculator from '../BMICalculator/BmiCalculator';
 import ClassLifecycle from '../ClassLifecycle/ClassLifecycle';
+import { Axios } from 'axios';
+import AxiosComponent from '../Axios/Axios';
 
 function NavBar() {
   return(
@@ -132,6 +134,7 @@ function NavBar() {
               <Route path='FormState' element={<FormState/>}></Route>
               <Route path='BmiCalculator' element={<BmiCalculator/>}></Route>
               <Route path='classLifecycle'element={<ClassLifecycle/>}></Route>
+              <Route path='axios'element={<AxiosComponent/>}></Route>
             </Route>
             <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>

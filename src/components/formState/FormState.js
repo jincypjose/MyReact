@@ -42,7 +42,11 @@ const addNumber=(e)=>{
          <label>Phone Number : </label>
          <input type="number" name="phoneNumber" onChange={(e)=>changehan(e)} value={user.phoneNumber}/><br/>
          <button type="submit" onClick={(e)=>sub(e)}>Submit</button>
-         {/* {addNumbers.map((numbers)=>)} */}
+         {/* {addNumbers.map((numbers)=>(
+            console.log(numbers.number1)
+            // <input type="number" name={numbers} onChange={(e)=>addNumber(e)} value={addNumbers.number1}/>
+         )
+         )} */}
          <input type="number" name="number1" onChange={(e)=>addNumber(e)} value={addNumbers.number1}/>
          <input type="number" name="number2" onChange={(e)=>addNumber(e)} value={addNumbers.number2}/>
          <button onClick={(e)=>sub(e)}>Add</button>

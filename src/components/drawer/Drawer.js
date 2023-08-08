@@ -36,6 +36,8 @@ function Drawer() {
             <span>BMI Calculator</span></Link>
             <Link to="/drawer/classLifecycle" className="list-group-item list-group-item-action py-2 ripple">
             <span>Class Lifecycle</span></Link>
+            <Link to="/drawer/axios" className="list-group-item list-group-item-action py-2 ripple">
+            <span>axios</span></Link>
           </div>
         </div>
         <div className='col-md-9'>
