@@ -17,6 +17,7 @@ import BmiCalculator from '../BMICalculator/BmiCalculator';
 import ClassLifecycle from '../ClassLifecycle/ClassLifecycle';
 import { Axios } from 'axios';
 import AxiosComponent from '../Axios/Axios';
+import ValidatePassword from '../validate/validate';
 
 function NavBar() {
   return(
@@ -135,6 +136,7 @@ function NavBar() {
               <Route path='BmiCalculator' element={<BmiCalculator/>}></Route>
               <Route path='classLifecycle'element={<ClassLifecycle/>}></Route>
               <Route path='axios'element={<AxiosComponent/>}></Route>
+              <Route path='validate'element={<ValidatePassword/>}></Route>
             </Route>
             <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>

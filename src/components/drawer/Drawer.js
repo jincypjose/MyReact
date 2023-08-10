@@ -38,6 +38,8 @@ function Drawer() {
             <span>Class Lifecycle</span></Link>
             <Link to="/drawer/axios" className="list-group-item list-group-item-action py-2 ripple">
             <span>axios</span></Link>
+            <Link to="/drawer/validate" className="list-group-item list-group-item-action py-2 ripple">
+            <span>Validate Password</span></Link>
           </div>
         </div>
         <div className='col-md-9'>
