@@ -18,6 +18,8 @@ import ClassLifecycle from '../ClassLifecycle/ClassLifecycle';
 import { Axios } from 'axios';
 import AxiosComponent from '../Axios/Axios';
 import ValidatePassword from '../validate/validate';
+import { Fetch } from '../Fetch/Fetch';
+import HigherOrder from '../HigherOrder/HigherOrder';
 
 function NavBar() {
   return(
@@ -137,6 +139,8 @@ function NavBar() {
               <Route path='classLifecycle'element={<ClassLifecycle/>}></Route>
               <Route path='axios'element={<AxiosComponent/>}></Route>
               <Route path='validate'element={<ValidatePassword/>}></Route>
+              <Route path='fetch' element={<Fetch/>}></Route>
+              <Route path='higherOrder' element={<HigherOrder/>}></Route>
             </Route>
             <Route path='signUp' element={<SignUp/>}></Route>
           </Routes>
